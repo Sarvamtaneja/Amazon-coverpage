@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+
+.logo{
+    background-image: url(amazon_logo.png);
+    height: 50px;
+    width: 100%;
+    background-size: cover;
+}
+
+.border{
+    border: 1.5px solid transparent;
+}
+
+.border:hover{
+    border:2px solid white
+}
+
+/* nav box2 */
+.add-1{
+    font-size: 0.75rem;
+    color: #CCCCCC;
+    margin-left: 15px;
+}
+
+.add-2{
+    font-size: 0.85rem;
+    color: white;
+    margin-left: 3px;
+    font-weight: 700;
+}
+
+.add-icon{
+    display: flex;
+    /* nav-address pe flex use karne se teeno ek line mein aa jayeinge */
+}
+
+/* nav box 3 */
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: pink;
+    /* temporarily ^ */
+    width: 620px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.nav-search:hover{
+    border: 2px solid orange;
+}
+
+.search-select{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    border: none;
+}
+
+.search-input{
+    width: 100%;
+    /* select and icon ke baad bachi hui space le lega */
+    font-size: 1rem;
+    border: none;
+}
+
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(253, 174, 2);
+    font-size: 1.2rem;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+/* nav-box 4 */
+.nav-lang{
+    width: 60px;
+    height: 20px;
+    display: flex;
+}
+
+.lang{
+    background-color: transparent;
+    width: 100%;
+    color: white;
+    font-size: 0.85rem;
+    border: none;
+}
+
+.lang-select{
+    background-color: transparent;
+    width: 100%;
+    color: white;
+    border: none;
+    
+}
+
+.lang-flag{
+    background-image: url(us_falg.png);
+    width: 30px;
+    height: 100%;
+    background-size: cover;
+}
+
+/* nav-box 5 */
+.signin{
+    font-size: 0.75rem;  
+}
+
+.nav-second{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/* nav-box 7 */
+.cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.cart i {
+    font-size: 28px;
+}
+
+/* pannel */
+.pannel{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 0.85rem;
+}
+
+.all{
+    margin: 10px;
+}
+
+.ops{
+    text-decoration: none;
+    color: #ffffff;
+    padding-left: 5px;
+}
+
+/* hero section */
+.hero-section{
+    background-image: url(hero_image.jpg);
+    height: 600px;
+    background-size:cover;
+}
