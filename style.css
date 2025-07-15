@@ -167,7 +167,7 @@
 /* hero section */
 .hero-section{
     background-image: url(hero_image.jpg);
-     height: 400px;
+    height: 400px;
     background-size:cover;
     display: flex;
     justify-content: center;
@@ -187,4 +187,43 @@
 
 .hero-msg a{
     color: #2162a1;
+}
+
+/* shop-section */
+.shop-section{
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+    grid-template-rows: 500px 500px;
+    grid-gap: 10px;
+    justify-content: center;
+    background: linear-gradient(to right, #324065, #90a8ac,#90a8ac);
+}
+
+.box{
+    background-color: white;
+    border: 2px solid black;
+    height: 400px;
+    margin-bottom: 20px;
+    padding: 20px 0px 15px;
+}
+
+.box p{
+    font-size: 0.75rem;
+}
+
+.box-img
+{
+    height: 300px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-size: cover;
+}
+
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.box p{
+     color: #2162a1;
 }
